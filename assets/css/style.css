@@ -22,9 +22,15 @@ h2 {
 }
 
 #logo {
+    clear: both;
     float: left;
     font-size: 280%;
     margin-left: 30px;
+}
+caption {
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 10px;
 }
 
 #menu {
@@ -59,7 +65,10 @@ h2 {
 #wallpaper-hurling {
     height: 600px;
     width: 100%;
-    background: url('../images/wallpaper-hurling.webp') no-repeat center center;
+    background: url('../images/Cu-Chulainn-Hurling-Irish-Legend-Defeating-A-Vicious-Hound-1.webp') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    clear: both;
 }
 
 /* Club ethos */
@@ -190,7 +199,8 @@ footer {
 
 .form-section {
     clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+   
+    background: url('../images/Cu-Chulainn-Hurling-Irish-Legend-Defeating-A-Vicious-Hound-1.webp') no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -201,7 +211,7 @@ footer {
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
-    position: absolute;
+    position: relative;
     left: 10%;
     padding: 30px;
 }
@@ -209,6 +219,10 @@ footer {
 .signup-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
+}
+
+.signup-form > div {
+    display: block;
 }
 
 .text-input {
@@ -242,7 +256,11 @@ footer {
 }
 
 table {
-	width: 70%;
+    clear: both;
+	width: 500px;
+    padding-top: 40px;
+    padding-left: 10px;
+    
 }
 
 tr {
